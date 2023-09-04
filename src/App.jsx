@@ -1,10 +1,16 @@
+import { Routes, Route } from "react-router-dom";
+import Navigation from "./Routes/Navigation/Navigation";
+import Home from "./Routes/Home/Home";
+
 function App() {
   return (
-    <>
-      <div>
-        <h1>Simple Shopping Cart</h1>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Navigation />}>
+        <Route index element={<Home />} />
+        {/* <Route path="shop" element={<Shop />} />
+        <Route path="checkout" element={<Checkout />} /> */}
+      </Route>
+    </Routes>
   );
 }
 
