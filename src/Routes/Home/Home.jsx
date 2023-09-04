@@ -5,29 +5,28 @@ function Home() {
   const categories = [
     {
       id: 1,
-      title: "hats",
-      imageUrl:
-        "https://unsplash.com/photos/KYKnR-pfURc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+      title: "T-shirts",
+      imageUrl: "https://i.ibb.co/jkQGStZ/polo1.jpg",
     },
     {
       id: 2,
-      title: "jackets",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: "Jackets",
+      imageUrl: "https://i.ibb.co/DzBtC4Y/jackets1.jpg",
     },
     {
       id: 3,
-      title: "sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      title: "Hats",
+      imageUrl: "https://i.ibb.co/ryyLCsX/hats1.jpg",
     },
     {
       id: 4,
-      title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      title: "Sneakers",
+      imageUrl: "https://i.ibb.co/WKcBqz4/sneakers1.jpg",
     },
     {
       id: 5,
-      title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      title: "Suit",
+      imageUrl: "https://i.ibb.co/Y8xVnL3/suits1.jpg",
     },
   ];
   return (

@@ -1,11 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
+import "./navigations.styles.scss";
 
 function Navigation() {
   return (
     <>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          Shopping Cart
+          <img className="logo" src="../../public/icons.png" alt="icon" />
         </Link>
 
         <div className="nav-links-container">
