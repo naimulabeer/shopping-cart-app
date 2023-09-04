@@ -37,7 +37,7 @@
     height: 5%;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 20px;
 
     .name {
       width: 90%;
@@ -45,7 +45,18 @@
     }
 
     .price {
-      width: 10%;
+      width: 12%;
+    }
+  }
+}
+
+@media (max-width: 796px) {
+  .product-card-container {
+    .footer {
+      font-size: 16px;
+      .price {
+        width: 20%;
+      }
     }
   }
 }

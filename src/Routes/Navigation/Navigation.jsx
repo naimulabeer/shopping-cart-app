@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import "./navigations.styles.scss";
+import CartIcon from "../../Components/CartIcon/CartIcon";
 
 function Navigation() {
   return (
@@ -13,7 +14,7 @@ function Navigation() {
           <Link className="nav-link" to="/shop">
             SHOP
           </Link>
-          {/* <CartIcon /> */}
+          <CartIcon />
         </div>
       </div>
       <Outlet />
