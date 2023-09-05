@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { BiShoppingBag } from "react-icons/bi";
-import { CartContext } from "../../contexts/cart-context";
+import { CartContext } from "../../Contexts/cart-context";
 import "./cart-icon.styles.scss";
 
 function CartIcon() {

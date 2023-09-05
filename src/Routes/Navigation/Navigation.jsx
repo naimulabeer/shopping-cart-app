@@ -3,7 +3,7 @@ import "./navigations.styles.scss";
 import CartIcon from "../../Components/CartIcon/CartIcon";
 import CartDropdown from "../../Components/CartDropdown/CartDropdown";
 import { useContext, useEffect } from "react";
-import { CartContext } from "../../contexts/cart-context";
+import { CartContext } from "../../Contexts/cart-context";
 
 function Navigation() {
   const { isCartOpen, setIsCartOpen } = useContext(CartContext);

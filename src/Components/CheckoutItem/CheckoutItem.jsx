@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CartContext } from "../../contexts/cart-context";
+import { CartContext } from "../../Contexts/cart-context";
 import { CiCircleRemove } from "react-icons/ci";
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 import "./checkout-item.styles.scss";
