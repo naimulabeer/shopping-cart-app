@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import { FaShopify } from "react-icons/fa";
 import "./navigations.styles.scss";
 import CartIcon from "../../Components/CartIcon/CartIcon";
 import CartDropdown from "../../Components/CartDropdown/CartDropdown";
@@ -29,7 +30,8 @@ function Navigation() {
     <>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <img className="logo" src="../../public/icons.png" alt="icon" />
+          <FaShopify className="logo" />
+          Simple Shop
         </Link>
 
         <div className="nav-links-container">
